@@ -1,0 +1,247 @@
+* {
+  margin: 0 auto;
+  padding: 0 auto;
+  list-style: none;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+html, body {
+  width: 100%;
+  height: 100%;
+  font-size: 12px;
+  color: #2E2E2E;
+  overflow-x: hidden;
+}
+
+.app {
+  width: 100%;
+  height: 100%;
+}
+
+a {
+  color: #2E2E2E;
+  text-decoration: none;
+}
+
+.hide {
+  display: none;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.indent {
+  text-indent: 4ex;
+}
+
+.f-18 {
+  font-size: 18px;
+}
+
+.p-15 {
+  padding: 15px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+/*~~~~~~~~~~~~~提交按钮~~~~~~~~~~~~~~*/
+.submit-btn {
+  width: 100%;
+  text-align: center;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  padding: 20px 0;
+}
+
+.submit-btn button {
+  width: 150px;
+  height: 40px;
+  font-size: 17px;
+  color: #fff;
+  background: #23a98e;
+  border: none;
+  -webkit-border-radius: 50px;
+  -moz-border-radius: 50px;
+  border-radius: 50px;
+}
+
+.submit-btn button:disabled {
+  background: #C4C4C4;
+}
+
+/*~~~~~~~~~~~~~提交按钮~~~~~~~~~~~~~~*/
+/*~~~~~~~~~~~~~列表样式~~~~~~~~~~~~~~~*/
+.list {
+  width: 100%;
+  font-size: 16px;
+  /*padding:20px 15px;*/
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.list .list-item {
+  width: 100%;
+  height: 60px;
+  line-height: 60px;
+  padding: 0 20px;
+  border-bottom: 1px solid #eee;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.list .list-item:first-of-type {
+  border-top: 1px solid #eee;
+}
+
+.list .list-item div.list-item-text {
+  width: 90%;
+  display: inline-block;
+}
+
+.list .list-item img {
+  height: 20px;
+  vertical-align: middle;
+}
+
+/*~~~~~~~~~~~~~列表样式~~~~~~~~~~~~~~~*/
+
+/*~~~~~~~~~~~~~填写邀请码~~~~~~~~~~~~~*/
+.inviteCode {
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.inviteCode .list .list-item input {
+  width: 80%;
+  height: 25px;
+  font-size: 16px;
+  text-align: center;
+  border: none;
+}
+
+/*~~~~~~~~~~~~~填写邀请码~~~~~~~~~~~~~*/
+.invite-img {
+  width: 33.33%;
+  text-align: center;
+
+}
+
+.invite-img img {
+  width: 100%;
+}
+
+/*~~~~~~~~~~~~~关于~~~~~~~~~~~~~*/
+.about {
+
+}
+
+.about p.about-text {
+  text-align: center;
+  font-size: 14px;
+  height: 25px;
+  line-height: 25px;
+}
+
+/*~~~~~~~~~~~~~关于~~~~~~~~~~~~~*/
+/*~~~~~~~~~~~~~吐槽反馈~~~~~~~~~~~~~*/
+.feedback {
+
+}
+
+.feedback .feedback-text {
+  font-size: 14px;
+  height: 30px;
+  line-height: 30px;
+}
+
+.feedback .feedback-list-item {
+  height: inherit;
+  padding: 0;
+}
+
+.feedback .feedback-list-item textarea {
+  width: 100%;
+  height: 150px;
+  font-size: 15px;
+  line-height: 25px;
+  border: none;
+  font-family: "微软雅黑";
+}
+
+/*~~~~~~~~~~~~~吐槽反馈~~~~~~~~~~~~~*/
+
+/*~~~~~~~~~~~~~注册协议 和 服务协议 ~~~~~~~~~~~~~*/
+
+/*~~~~~~~~~~~~~定义初始化样式 ~~~~~~~~~~~~~*/
+.fl {
+  float: left;
+}
+
+.fr {
+  float: right;
+}
+
+.clearfix:before, .clearfix:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.clearfix {
+  zoom: 1;
+}
+
+/*~~~~~~~~~~~~~固定头部样式 ~~~~~~~~~~~~~*/
+header {
+  color: #444;
+  height: 50px;
+  text-align: center;
+  line-height: 50px;
+  font-size: 16px;
+  font-weight: 400;
+  border-bottom: 1px solid #eee;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: #fff;
+  z-index: 1;
+  color: #444;
+}
+
+header span {
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+header a {
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+header img {
+  margin: 14px;
+  width: 27px;
+  height: 25px;
+  background-color: #fff;
+}
+
+.list {
+  padding-top: 50px;
+}
